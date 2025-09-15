@@ -16,8 +16,10 @@ let package = Package(
         .binaryTarget(
             name: "SporTotoSDKV1",
             url: "https://github.com/mindmons/SporTotoSDKV1/releases/download/v1.0.0/SporTotoSDKV1.xcframework.zip",
-            checksum: "7a5600b49f3386daad2a4aaab1244c09fc837364c89e496d642ba44d7f82f864"
+            checksum: "bc85d30cdfc9556b308576a2b0c9f9159c5e36fc94b8f7338ba9f9b7ea6170ac"
         )
     ]
 )
+
+
 
