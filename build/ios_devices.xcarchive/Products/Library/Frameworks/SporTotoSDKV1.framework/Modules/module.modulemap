@@ -1,6 +1,0 @@
-framework module SporTotoSDKV1 {
-  umbrella header "SporTotoSDKV1.h"
-  export *
-
-  module * { export * }
-}
