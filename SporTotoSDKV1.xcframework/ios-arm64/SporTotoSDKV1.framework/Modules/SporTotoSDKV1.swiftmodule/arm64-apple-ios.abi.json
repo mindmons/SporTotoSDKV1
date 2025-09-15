@@ -1,0 +1,3212 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "SporTotoSDKV1",
+    "printedName": "SporTotoSDKV1",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SporTotoSDKV1"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SporTotoSDK",
+        "printedName": "SporTotoSDK",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SporTotoSDK",
+                "printedName": "SporTotoSDKV1.SporTotoSDK",
+                "usr": "s:13SporTotoSDKV10aB3SDKC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13SporTotoSDKV10aB3SDKC6sharedACvpZ",
+            "mangledName": "$s13SporTotoSDKV10aB3SDKC6sharedACvpZ",
+            "moduleName": "SporTotoSDKV1",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SporTotoSDK",
+                    "printedName": "SporTotoSDKV1.SporTotoSDK",
+                    "usr": "s:13SporTotoSDKV10aB3SDKC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13SporTotoSDKV10aB3SDKC6sharedACvgZ",
+                "mangledName": "$s13SporTotoSDKV10aB3SDKC6sharedACvgZ",
+                "moduleName": "SporTotoSDKV1",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "fetchAgents",
+            "printedName": "fetchAgents(onlyPlayable:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<[SporTotoSDKV1.Agent], any Swift.Error>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<[SporTotoSDKV1.Agent], any Swift.Error>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[SporTotoSDKV1.Agent]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Agent",
+                            "printedName": "SporTotoSDKV1.Agent",
+                            "usr": "s:13SporTotoSDKV15AgentV"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13SporTotoSDKV10aB3SDKC11fetchAgents12onlyPlayable10completionySb_ys6ResultOySayAA5AgentVGs5Error_pGctF",
+            "mangledName": "$s13SporTotoSDKV10aB3SDKC11fetchAgents12onlyPlayable10completionySb_ys6ResultOySayAA5AgentVGs5Error_pGctF",
+            "moduleName": "SporTotoSDKV1",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:13SporTotoSDKV10aB3SDKC",
+        "mangledName": "$s13SporTotoSDKV10aB3SDKC",
+        "moduleName": "SporTotoSDKV1",
+        "declAttributes": [
+          "Final",
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SporTotoSDKV1"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ValorantAPI",
+        "printedName": "ValorantAPI",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ValorantAPI",
+                "printedName": "SporTotoSDKV1.ValorantAPI",
+                "usr": "s:13SporTotoSDKV111ValorantAPIC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:13SporTotoSDKV111ValorantAPICACycfc",
+            "mangledName": "$s13SporTotoSDKV111ValorantAPICACycfc",
+            "moduleName": "SporTotoSDKV1",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "fetchAgents",
+            "printedName": "fetchAgents(onlyPlayable:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<[SporTotoSDKV1.Agent], any Swift.Error>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<[SporTotoSDKV1.Agent], any Swift.Error>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[SporTotoSDKV1.Agent]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Agent",
+                            "printedName": "SporTotoSDKV1.Agent",
+                            "usr": "s:13SporTotoSDKV15AgentV"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13SporTotoSDKV111ValorantAPIC11fetchAgents12onlyPlayable10completionySb_ys6ResultOySayAA5AgentVGs5Error_pGctF",
+            "mangledName": "$s13SporTotoSDKV111ValorantAPIC11fetchAgents12onlyPlayable10completionySb_ys6ResultOySayAA5AgentVGs5Error_pGctF",
+            "moduleName": "SporTotoSDKV1",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:13SporTotoSDKV111ValorantAPIC",
+        "mangledName": "$s13SporTotoSDKV111ValorantAPIC",
+        "moduleName": "SporTotoSDKV1",
+        "declAttributes": [
+          "Final",
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SporTotoSDKV1"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AgentResponse",
+        "printedName": "AgentResponse",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "status",
+            "printedName": "status",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13SporTotoSDKV113AgentResponseV6statusSivp",
+            "mangledName": "$s13SporTotoSDKV113AgentResponseV6statusSivp",
+            "moduleName": "SporTotoSDKV1",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13SporTotoSDKV113AgentResponseV6statusSivg",
+                "mangledName": "$s13SporTotoSDKV113AgentResponseV6statusSivg",
+                "moduleName": "SporTotoSDKV1",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "data",
+            "printedName": "data",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[SporTotoSDKV1.Agent]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Agent",
+                    "printedName": "SporTotoSDKV1.Agent",
+                    "usr": "s:13SporTotoSDKV15AgentV"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13SporTotoSDKV113AgentResponseV4dataSayAA0D0VGvp",
+            "mangledName": "$s13SporTotoSDKV113AgentResponseV4dataSayAA0D0VGvp",
+            "moduleName": "SporTotoSDKV1",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[SporTotoSDKV1.Agent]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Agent",
+                        "printedName": "SporTotoSDKV1.Agent",
+                        "usr": "s:13SporTotoSDKV15AgentV"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13SporTotoSDKV113AgentResponseV4dataSayAA0D0VGvg",
+                "mangledName": "$s13SporTotoSDKV113AgentResponseV4dataSayAA0D0VGvg",
+                "moduleName": "SporTotoSDKV1",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AgentResponse",
+                "printedName": "SporTotoSDKV1.AgentResponse",
+                "usr": "s:13SporTotoSDKV113AgentResponseV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:13SporTotoSDKV113AgentResponseV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s13SporTotoSDKV113AgentResponseV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "SporTotoSDKV1",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13SporTotoSDKV113AgentResponseV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s13SporTotoSDKV113AgentResponseV6encode2toys7Encoder_p_tKF",
+            "moduleName": "SporTotoSDKV1",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:13SporTotoSDKV113AgentResponseV",
+        "mangledName": "$s13SporTotoSDKV113AgentResponseV",
+        "moduleName": "SporTotoSDKV1",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Agent",
+        "printedName": "Agent",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "uuid",
+            "printedName": "uuid",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13SporTotoSDKV15AgentV4uuidSSvp",
+            "mangledName": "$s13SporTotoSDKV15AgentV4uuidSSvp",
+            "moduleName": "SporTotoSDKV1",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13SporTotoSDKV15AgentV4uuidSSvg",
+                "mangledName": "$s13SporTotoSDKV15AgentV4uuidSSvg",
+                "moduleName": "SporTotoSDKV1",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "displayName",
+            "printedName": "displayName",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13SporTotoSDKV15AgentV11displayNameSSvp",
+            "mangledName": "$s13SporTotoSDKV15AgentV11displayNameSSvp",
+            "moduleName": "SporTotoSDKV1",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13SporTotoSDKV15AgentV11displayNameSSvg",
+                "mangledName": "$s13SporTotoSDKV15AgentV11displayNameSSvg",
+                "moduleName": "SporTotoSDKV1",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "description",
+            "printedName": "description",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13SporTotoSDKV15AgentV11descriptionSSvp",
+            "mangledName": "$s13SporTotoSDKV15AgentV11descriptionSSvp",
+            "moduleName": "SporTotoSDKV1",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13SporTotoSDKV15AgentV11descriptionSSvg",
+                "mangledName": "$s13SporTotoSDKV15AgentV11descriptionSSvg",
+                "moduleName": "SporTotoSDKV1",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "developerName",
+            "printedName": "developerName",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13SporTotoSDKV15AgentV13developerNameSSvp",
+            "mangledName": "$s13SporTotoSDKV15AgentV13developerNameSSvp",
+            "moduleName": "SporTotoSDKV1",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13SporTotoSDKV15AgentV13developerNameSSvg",
+                "mangledName": "$s13SporTotoSDKV15AgentV13developerNameSSvg",
+                "moduleName": "SporTotoSDKV1",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "releaseDate",
+            "printedName": "releaseDate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13SporTotoSDKV15AgentV11releaseDateSSvp",
+            "mangledName": "$s13SporTotoSDKV15AgentV11releaseDateSSvp",
+            "moduleName": "SporTotoSDKV1",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13SporTotoSDKV15AgentV11releaseDateSSvg",
+                "mangledName": "$s13SporTotoSDKV15AgentV11releaseDateSSvg",
+                "moduleName": "SporTotoSDKV1",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "characterTags",
+            "printedName": "characterTags",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13SporTotoSDKV15AgentV13characterTagsSaySSGSgvp",
+            "mangledName": "$s13SporTotoSDKV15AgentV13characterTagsSaySSGSgvp",
+            "moduleName": "SporTotoSDKV1",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[Swift.String]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[Swift.String]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13SporTotoSDKV15AgentV13characterTagsSaySSGSgvg",
+                "mangledName": "$s13SporTotoSDKV15AgentV13characterTagsSaySSGSgvg",
+                "moduleName": "SporTotoSDKV1",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "displayIcon",
+            "printedName": "displayIcon",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13SporTotoSDKV15AgentV11displayIconSSSgvp",
+            "mangledName": "$s13SporTotoSDKV15AgentV11displayIconSSSgvp",
+            "moduleName": "SporTotoSDKV1",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13SporTotoSDKV15AgentV11displayIconSSSgvg",
+                "mangledName": "$s13SporTotoSDKV15AgentV11displayIconSSSgvg",
+                "moduleName": "SporTotoSDKV1",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "displayIconSmall",
+            "printedName": "displayIconSmall",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13SporTotoSDKV15AgentV16displayIconSmallSSSgvp",
+            "mangledName": "$s13SporTotoSDKV15AgentV16displayIconSmallSSSgvp",
+            "moduleName": "SporTotoSDKV1",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13SporTotoSDKV15AgentV16displayIconSmallSSSgvg",
+                "mangledName": "$s13SporTotoSDKV15AgentV16displayIconSmallSSSgvg",
+                "moduleName": "SporTotoSDKV1",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "bustPortrait",
+            "printedName": "bustPortrait",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13SporTotoSDKV15AgentV12bustPortraitSSSgvp",
+            "mangledName": "$s13SporTotoSDKV15AgentV12bustPortraitSSSgvp",
+            "moduleName": "SporTotoSDKV1",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13SporTotoSDKV15AgentV12bustPortraitSSSgvg",
+                "mangledName": "$s13SporTotoSDKV15AgentV12bustPortraitSSSgvg",
+                "moduleName": "SporTotoSDKV1",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "fullPortrait",
+            "printedName": "fullPortrait",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13SporTotoSDKV15AgentV12fullPortraitSSSgvp",
+            "mangledName": "$s13SporTotoSDKV15AgentV12fullPortraitSSSgvp",
+            "moduleName": "SporTotoSDKV1",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13SporTotoSDKV15AgentV12fullPortraitSSSgvg",
+                "mangledName": "$s13SporTotoSDKV15AgentV12fullPortraitSSSgvg",
+                "moduleName": "SporTotoSDKV1",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "fullPortraitV2",
+            "printedName": "fullPortraitV2",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13SporTotoSDKV15AgentV14fullPortraitV2SSSgvp",
+            "mangledName": "$s13SporTotoSDKV15AgentV14fullPortraitV2SSSgvp",
+            "moduleName": "SporTotoSDKV1",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13SporTotoSDKV15AgentV14fullPortraitV2SSSgvg",
+                "mangledName": "$s13SporTotoSDKV15AgentV14fullPortraitV2SSSgvg",
+                "moduleName": "SporTotoSDKV1",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "killfeedPortrait",
+            "printedName": "killfeedPortrait",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13SporTotoSDKV15AgentV16killfeedPortraitSSSgvp",
+            "mangledName": "$s13SporTotoSDKV15AgentV16killfeedPortraitSSSgvp",
+            "moduleName": "SporTotoSDKV1",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13SporTotoSDKV15AgentV16killfeedPortraitSSSgvg",
+                "mangledName": "$s13SporTotoSDKV15AgentV16killfeedPortraitSSSgvg",
+                "moduleName": "SporTotoSDKV1",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "minimapPortrait",
+            "printedName": "minimapPortrait",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13SporTotoSDKV15AgentV15minimapPortraitSSSgvp",
+            "mangledName": "$s13SporTotoSDKV15AgentV15minimapPortraitSSSgvp",
+            "moduleName": "SporTotoSDKV1",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13SporTotoSDKV15AgentV15minimapPortraitSSSgvg",
+                "mangledName": "$s13SporTotoSDKV15AgentV15minimapPortraitSSSgvg",
+                "moduleName": "SporTotoSDKV1",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "homeScreenPromoTileImage",
+            "printedName": "homeScreenPromoTileImage",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13SporTotoSDKV15AgentV24homeScreenPromoTileImageSSSgvp",
+            "mangledName": "$s13SporTotoSDKV15AgentV24homeScreenPromoTileImageSSSgvp",
+            "moduleName": "SporTotoSDKV1",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13SporTotoSDKV15AgentV24homeScreenPromoTileImageSSSgvg",
+                "mangledName": "$s13SporTotoSDKV15AgentV24homeScreenPromoTileImageSSSgvg",
+                "moduleName": "SporTotoSDKV1",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "background",
+            "printedName": "background",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13SporTotoSDKV15AgentV10backgroundSSSgvp",
+            "mangledName": "$s13SporTotoSDKV15AgentV10backgroundSSSgvp",
+            "moduleName": "SporTotoSDKV1",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13SporTotoSDKV15AgentV10backgroundSSSgvg",
+                "mangledName": "$s13SporTotoSDKV15AgentV10backgroundSSSgvg",
+                "moduleName": "SporTotoSDKV1",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "backgroundGradientColors",
+            "printedName": "backgroundGradientColors",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13SporTotoSDKV15AgentV24backgroundGradientColorsSaySSGSgvp",
+            "mangledName": "$s13SporTotoSDKV15AgentV24backgroundGradientColorsSaySSGSgvp",
+            "moduleName": "SporTotoSDKV1",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[Swift.String]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[Swift.String]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13SporTotoSDKV15AgentV24backgroundGradientColorsSaySSGSgvg",
+                "mangledName": "$s13SporTotoSDKV15AgentV24backgroundGradientColorsSaySSGSgvg",
+                "moduleName": "SporTotoSDKV1",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "assetPath",
+            "printedName": "assetPath",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13SporTotoSDKV15AgentV9assetPathSSvp",
+            "mangledName": "$s13SporTotoSDKV15AgentV9assetPathSSvp",
+            "moduleName": "SporTotoSDKV1",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13SporTotoSDKV15AgentV9assetPathSSvg",
+                "mangledName": "$s13SporTotoSDKV15AgentV9assetPathSSvg",
+                "moduleName": "SporTotoSDKV1",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isFullPortraitRightFacing",
+            "printedName": "isFullPortraitRightFacing",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13SporTotoSDKV15AgentV25isFullPortraitRightFacingSbvp",
+            "mangledName": "$s13SporTotoSDKV15AgentV25isFullPortraitRightFacingSbvp",
+            "moduleName": "SporTotoSDKV1",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13SporTotoSDKV15AgentV25isFullPortraitRightFacingSbvg",
+                "mangledName": "$s13SporTotoSDKV15AgentV25isFullPortraitRightFacingSbvg",
+                "moduleName": "SporTotoSDKV1",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isPlayableCharacter",
+            "printedName": "isPlayableCharacter",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13SporTotoSDKV15AgentV19isPlayableCharacterSbvp",
+            "mangledName": "$s13SporTotoSDKV15AgentV19isPlayableCharacterSbvp",
+            "moduleName": "SporTotoSDKV1",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13SporTotoSDKV15AgentV19isPlayableCharacterSbvg",
+                "mangledName": "$s13SporTotoSDKV15AgentV19isPlayableCharacterSbvg",
+                "moduleName": "SporTotoSDKV1",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isAvailableForTest",
+            "printedName": "isAvailableForTest",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13SporTotoSDKV15AgentV18isAvailableForTestSbvp",
+            "mangledName": "$s13SporTotoSDKV15AgentV18isAvailableForTestSbvp",
+            "moduleName": "SporTotoSDKV1",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13SporTotoSDKV15AgentV18isAvailableForTestSbvg",
+                "mangledName": "$s13SporTotoSDKV15AgentV18isAvailableForTestSbvg",
+                "moduleName": "SporTotoSDKV1",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isBaseContent",
+            "printedName": "isBaseContent",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13SporTotoSDKV15AgentV13isBaseContentSbvp",
+            "mangledName": "$s13SporTotoSDKV15AgentV13isBaseContentSbvp",
+            "moduleName": "SporTotoSDKV1",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13SporTotoSDKV15AgentV13isBaseContentSbvg",
+                "mangledName": "$s13SporTotoSDKV15AgentV13isBaseContentSbvg",
+                "moduleName": "SporTotoSDKV1",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "role",
+            "printedName": "role",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "SporTotoSDKV1.Role?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Role",
+                    "printedName": "SporTotoSDKV1.Role",
+                    "usr": "s:13SporTotoSDKV14RoleV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13SporTotoSDKV15AgentV4roleAA4RoleVSgvp",
+            "mangledName": "$s13SporTotoSDKV15AgentV4roleAA4RoleVSgvp",
+            "moduleName": "SporTotoSDKV1",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "SporTotoSDKV1.Role?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Role",
+                        "printedName": "SporTotoSDKV1.Role",
+                        "usr": "s:13SporTotoSDKV14RoleV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13SporTotoSDKV15AgentV4roleAA4RoleVSgvg",
+                "mangledName": "$s13SporTotoSDKV15AgentV4roleAA4RoleVSgvg",
+                "moduleName": "SporTotoSDKV1",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "recruitmentData",
+            "printedName": "recruitmentData",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "SporTotoSDKV1.RecruitmentData?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RecruitmentData",
+                    "printedName": "SporTotoSDKV1.RecruitmentData",
+                    "usr": "s:13SporTotoSDKV115RecruitmentDataV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13SporTotoSDKV15AgentV15recruitmentDataAA011RecruitmentF0VSgvp",
+            "mangledName": "$s13SporTotoSDKV15AgentV15recruitmentDataAA011RecruitmentF0VSgvp",
+            "moduleName": "SporTotoSDKV1",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "SporTotoSDKV1.RecruitmentData?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "RecruitmentData",
+                        "printedName": "SporTotoSDKV1.RecruitmentData",
+                        "usr": "s:13SporTotoSDKV115RecruitmentDataV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13SporTotoSDKV15AgentV15recruitmentDataAA011RecruitmentF0VSgvg",
+                "mangledName": "$s13SporTotoSDKV15AgentV15recruitmentDataAA011RecruitmentF0VSgvg",
+                "moduleName": "SporTotoSDKV1",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "abilities",
+            "printedName": "abilities",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[SporTotoSDKV1.Ability]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Ability",
+                    "printedName": "SporTotoSDKV1.Ability",
+                    "usr": "s:13SporTotoSDKV17AbilityV"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13SporTotoSDKV15AgentV9abilitiesSayAA7AbilityVGvp",
+            "mangledName": "$s13SporTotoSDKV15AgentV9abilitiesSayAA7AbilityVGvp",
+            "moduleName": "SporTotoSDKV1",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[SporTotoSDKV1.Ability]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Ability",
+                        "printedName": "SporTotoSDKV1.Ability",
+                        "usr": "s:13SporTotoSDKV17AbilityV"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13SporTotoSDKV15AgentV9abilitiesSayAA7AbilityVGvg",
+                "mangledName": "$s13SporTotoSDKV15AgentV9abilitiesSayAA7AbilityVGvg",
+                "moduleName": "SporTotoSDKV1",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "voiceLine",
+            "printedName": "voiceLine",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "SporTotoSDKV1.VoiceLine?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VoiceLine",
+                    "printedName": "SporTotoSDKV1.VoiceLine",
+                    "usr": "s:13SporTotoSDKV19VoiceLineV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13SporTotoSDKV15AgentV9voiceLineAA05VoiceF0VSgvp",
+            "mangledName": "$s13SporTotoSDKV15AgentV9voiceLineAA05VoiceF0VSgvp",
+            "moduleName": "SporTotoSDKV1",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "SporTotoSDKV1.VoiceLine?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "VoiceLine",
+                        "printedName": "SporTotoSDKV1.VoiceLine",
+                        "usr": "s:13SporTotoSDKV19VoiceLineV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13SporTotoSDKV15AgentV9voiceLineAA05VoiceF0VSgvg",
+                "mangledName": "$s13SporTotoSDKV15AgentV9voiceLineAA05VoiceF0VSgvg",
+                "moduleName": "SporTotoSDKV1",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Agent",
+                "printedName": "SporTotoSDKV1.Agent",
+                "usr": "s:13SporTotoSDKV15AgentV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:13SporTotoSDKV15AgentV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s13SporTotoSDKV15AgentV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "SporTotoSDKV1",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13SporTotoSDKV15AgentV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s13SporTotoSDKV15AgentV6encode2toys7Encoder_p_tKF",
+            "moduleName": "SporTotoSDKV1",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:13SporTotoSDKV15AgentV",
+        "mangledName": "$s13SporTotoSDKV15AgentV",
+        "moduleName": "SporTotoSDKV1",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Role",
+        "printedName": "Role",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "uuid",
+            "printedName": "uuid",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13SporTotoSDKV14RoleV4uuidSSvp",
+            "mangledName": "$s13SporTotoSDKV14RoleV4uuidSSvp",
+            "moduleName": "SporTotoSDKV1",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13SporTotoSDKV14RoleV4uuidSSvg",
+                "mangledName": "$s13SporTotoSDKV14RoleV4uuidSSvg",
+                "moduleName": "SporTotoSDKV1",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "displayName",
+            "printedName": "displayName",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13SporTotoSDKV14RoleV11displayNameSSvp",
+            "mangledName": "$s13SporTotoSDKV14RoleV11displayNameSSvp",
+            "moduleName": "SporTotoSDKV1",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13SporTotoSDKV14RoleV11displayNameSSvg",
+                "mangledName": "$s13SporTotoSDKV14RoleV11displayNameSSvg",
+                "moduleName": "SporTotoSDKV1",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "description",
+            "printedName": "description",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13SporTotoSDKV14RoleV11descriptionSSvp",
+            "mangledName": "$s13SporTotoSDKV14RoleV11descriptionSSvp",
+            "moduleName": "SporTotoSDKV1",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13SporTotoSDKV14RoleV11descriptionSSvg",
+                "mangledName": "$s13SporTotoSDKV14RoleV11descriptionSSvg",
+                "moduleName": "SporTotoSDKV1",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "displayIcon",
+            "printedName": "displayIcon",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13SporTotoSDKV14RoleV11displayIconSSSgvp",
+            "mangledName": "$s13SporTotoSDKV14RoleV11displayIconSSSgvp",
+            "moduleName": "SporTotoSDKV1",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13SporTotoSDKV14RoleV11displayIconSSSgvg",
+                "mangledName": "$s13SporTotoSDKV14RoleV11displayIconSSSgvg",
+                "moduleName": "SporTotoSDKV1",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "assetPath",
+            "printedName": "assetPath",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13SporTotoSDKV14RoleV9assetPathSSvp",
+            "mangledName": "$s13SporTotoSDKV14RoleV9assetPathSSvp",
+            "moduleName": "SporTotoSDKV1",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13SporTotoSDKV14RoleV9assetPathSSvg",
+                "mangledName": "$s13SporTotoSDKV14RoleV9assetPathSSvg",
+                "moduleName": "SporTotoSDKV1",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Role",
+                "printedName": "SporTotoSDKV1.Role",
+                "usr": "s:13SporTotoSDKV14RoleV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:13SporTotoSDKV14RoleV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s13SporTotoSDKV14RoleV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "SporTotoSDKV1",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13SporTotoSDKV14RoleV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s13SporTotoSDKV14RoleV6encode2toys7Encoder_p_tKF",
+            "moduleName": "SporTotoSDKV1",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:13SporTotoSDKV14RoleV",
+        "mangledName": "$s13SporTotoSDKV14RoleV",
+        "moduleName": "SporTotoSDKV1",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Ability",
+        "printedName": "Ability",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "slot",
+            "printedName": "slot",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13SporTotoSDKV17AbilityV4slotSSvp",
+            "mangledName": "$s13SporTotoSDKV17AbilityV4slotSSvp",
+            "moduleName": "SporTotoSDKV1",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13SporTotoSDKV17AbilityV4slotSSvg",
+                "mangledName": "$s13SporTotoSDKV17AbilityV4slotSSvg",
+                "moduleName": "SporTotoSDKV1",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "displayName",
+            "printedName": "displayName",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13SporTotoSDKV17AbilityV11displayNameSSvp",
+            "mangledName": "$s13SporTotoSDKV17AbilityV11displayNameSSvp",
+            "moduleName": "SporTotoSDKV1",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13SporTotoSDKV17AbilityV11displayNameSSvg",
+                "mangledName": "$s13SporTotoSDKV17AbilityV11displayNameSSvg",
+                "moduleName": "SporTotoSDKV1",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "description",
+            "printedName": "description",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13SporTotoSDKV17AbilityV11descriptionSSvp",
+            "mangledName": "$s13SporTotoSDKV17AbilityV11descriptionSSvp",
+            "moduleName": "SporTotoSDKV1",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13SporTotoSDKV17AbilityV11descriptionSSvg",
+                "mangledName": "$s13SporTotoSDKV17AbilityV11descriptionSSvg",
+                "moduleName": "SporTotoSDKV1",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "displayIcon",
+            "printedName": "displayIcon",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13SporTotoSDKV17AbilityV11displayIconSSSgvp",
+            "mangledName": "$s13SporTotoSDKV17AbilityV11displayIconSSSgvp",
+            "moduleName": "SporTotoSDKV1",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13SporTotoSDKV17AbilityV11displayIconSSSgvg",
+                "mangledName": "$s13SporTotoSDKV17AbilityV11displayIconSSSgvg",
+                "moduleName": "SporTotoSDKV1",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Ability",
+                "printedName": "SporTotoSDKV1.Ability",
+                "usr": "s:13SporTotoSDKV17AbilityV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:13SporTotoSDKV17AbilityV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s13SporTotoSDKV17AbilityV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "SporTotoSDKV1",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13SporTotoSDKV17AbilityV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s13SporTotoSDKV17AbilityV6encode2toys7Encoder_p_tKF",
+            "moduleName": "SporTotoSDKV1",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:13SporTotoSDKV17AbilityV",
+        "mangledName": "$s13SporTotoSDKV17AbilityV",
+        "moduleName": "SporTotoSDKV1",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "RecruitmentData",
+        "printedName": "RecruitmentData",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "counterId",
+            "printedName": "counterId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13SporTotoSDKV115RecruitmentDataV9counterIdSSSgvp",
+            "mangledName": "$s13SporTotoSDKV115RecruitmentDataV9counterIdSSSgvp",
+            "moduleName": "SporTotoSDKV1",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13SporTotoSDKV115RecruitmentDataV9counterIdSSSgvg",
+                "mangledName": "$s13SporTotoSDKV115RecruitmentDataV9counterIdSSSgvg",
+                "moduleName": "SporTotoSDKV1",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "milestoneId",
+            "printedName": "milestoneId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13SporTotoSDKV115RecruitmentDataV11milestoneIdSSSgvp",
+            "mangledName": "$s13SporTotoSDKV115RecruitmentDataV11milestoneIdSSSgvp",
+            "moduleName": "SporTotoSDKV1",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13SporTotoSDKV115RecruitmentDataV11milestoneIdSSSgvg",
+                "mangledName": "$s13SporTotoSDKV115RecruitmentDataV11milestoneIdSSSgvg",
+                "moduleName": "SporTotoSDKV1",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "milestoneThreshold",
+            "printedName": "milestoneThreshold",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13SporTotoSDKV115RecruitmentDataV18milestoneThresholdSiSgvp",
+            "mangledName": "$s13SporTotoSDKV115RecruitmentDataV18milestoneThresholdSiSgvp",
+            "moduleName": "SporTotoSDKV1",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13SporTotoSDKV115RecruitmentDataV18milestoneThresholdSiSgvg",
+                "mangledName": "$s13SporTotoSDKV115RecruitmentDataV18milestoneThresholdSiSgvg",
+                "moduleName": "SporTotoSDKV1",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "startDate",
+            "printedName": "startDate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13SporTotoSDKV115RecruitmentDataV9startDateSSSgvp",
+            "mangledName": "$s13SporTotoSDKV115RecruitmentDataV9startDateSSSgvp",
+            "moduleName": "SporTotoSDKV1",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13SporTotoSDKV115RecruitmentDataV9startDateSSSgvg",
+                "mangledName": "$s13SporTotoSDKV115RecruitmentDataV9startDateSSSgvg",
+                "moduleName": "SporTotoSDKV1",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "endDate",
+            "printedName": "endDate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13SporTotoSDKV115RecruitmentDataV7endDateSSSgvp",
+            "mangledName": "$s13SporTotoSDKV115RecruitmentDataV7endDateSSSgvp",
+            "moduleName": "SporTotoSDKV1",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13SporTotoSDKV115RecruitmentDataV7endDateSSSgvg",
+                "mangledName": "$s13SporTotoSDKV115RecruitmentDataV7endDateSSSgvg",
+                "moduleName": "SporTotoSDKV1",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "useLevelVpCostOverride",
+            "printedName": "useLevelVpCostOverride",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Bool?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13SporTotoSDKV115RecruitmentDataV22useLevelVpCostOverrideSbSgvp",
+            "mangledName": "$s13SporTotoSDKV115RecruitmentDataV22useLevelVpCostOverrideSbSgvp",
+            "moduleName": "SporTotoSDKV1",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Bool?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13SporTotoSDKV115RecruitmentDataV22useLevelVpCostOverrideSbSgvg",
+                "mangledName": "$s13SporTotoSDKV115RecruitmentDataV22useLevelVpCostOverrideSbSgvg",
+                "moduleName": "SporTotoSDKV1",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "levelVpCostOverride",
+            "printedName": "levelVpCostOverride",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13SporTotoSDKV115RecruitmentDataV19levelVpCostOverrideSiSgvp",
+            "mangledName": "$s13SporTotoSDKV115RecruitmentDataV19levelVpCostOverrideSiSgvp",
+            "moduleName": "SporTotoSDKV1",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13SporTotoSDKV115RecruitmentDataV19levelVpCostOverrideSiSgvg",
+                "mangledName": "$s13SporTotoSDKV115RecruitmentDataV19levelVpCostOverrideSiSgvg",
+                "moduleName": "SporTotoSDKV1",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "RecruitmentData",
+                "printedName": "SporTotoSDKV1.RecruitmentData",
+                "usr": "s:13SporTotoSDKV115RecruitmentDataV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:13SporTotoSDKV115RecruitmentDataV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s13SporTotoSDKV115RecruitmentDataV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "SporTotoSDKV1",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13SporTotoSDKV115RecruitmentDataV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s13SporTotoSDKV115RecruitmentDataV6encode2toys7Encoder_p_tKF",
+            "moduleName": "SporTotoSDKV1",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:13SporTotoSDKV115RecruitmentDataV",
+        "mangledName": "$s13SporTotoSDKV115RecruitmentDataV",
+        "moduleName": "SporTotoSDKV1",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "VoiceLine",
+        "printedName": "VoiceLine",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "VoiceLine",
+                "printedName": "SporTotoSDKV1.VoiceLine",
+                "usr": "s:13SporTotoSDKV19VoiceLineV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:13SporTotoSDKV19VoiceLineV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s13SporTotoSDKV19VoiceLineV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "SporTotoSDKV1",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13SporTotoSDKV19VoiceLineV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s13SporTotoSDKV19VoiceLineV6encode2toys7Encoder_p_tKF",
+            "moduleName": "SporTotoSDKV1",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:13SporTotoSDKV19VoiceLineV",
+        "mangledName": "$s13SporTotoSDKV19VoiceLineV",
+        "moduleName": "SporTotoSDKV1",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/argedor\/Desktop\/SporTotoSDKV1\/SporTotoSDK.swift",
+      "kind": "BooleanLiteral",
+      "offset": 206,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/argedor\/Desktop\/SporTotoSDKV1\/ValorantAPI.swift",
+      "kind": "BooleanLiteral",
+      "offset": 123,
+      "length": 4,
+      "value": "true"
+    }
+  ]
+}
