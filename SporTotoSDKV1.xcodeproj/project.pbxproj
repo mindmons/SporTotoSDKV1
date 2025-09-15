@@ -8,17 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		507F9D662E7828E300BCE059 /* info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 507F9D652E7828E300BCE059 /* info.plist */; };
-		507F9D682E78294E00BCE059 /* Agent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 507F9D672E78294E00BCE059 /* Agent.swift */; };
-		507F9D6A2E78295A00BCE059 /* SporTotoSDK.swift in Sources */ = {isa = PBXBuildFile; fileRef = 507F9D692E78295A00BCE059 /* SporTotoSDK.swift */; };
-		507F9D6C2E78295F00BCE059 /* ValorantAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 507F9D6B2E78295F00BCE059 /* ValorantAPI.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		507F9D542E78268400BCE059 /* SporTotoSDKV1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SporTotoSDKV1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		507F9D652E7828E300BCE059 /* info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = info.plist; sourceTree = "<group>"; };
-		507F9D672E78294E00BCE059 /* Agent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Agent.swift; sourceTree = "<group>"; };
-		507F9D692E78295A00BCE059 /* SporTotoSDK.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SporTotoSDK.swift; sourceTree = "<group>"; };
-		507F9D6B2E78295F00BCE059 /* ValorantAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValorantAPI.swift; sourceTree = "<group>"; };
+		507F9D6D2E782CFE00BCE059 /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -59,9 +54,7 @@
 				507F9D652E7828E300BCE059 /* info.plist */,
 				507F9D562E78268400BCE059 /* SporTotoSDKV1 */,
 				507F9D552E78268400BCE059 /* Products */,
-				507F9D672E78294E00BCE059 /* Agent.swift */,
-				507F9D692E78295A00BCE059 /* SporTotoSDK.swift */,
-				507F9D6B2E78295F00BCE059 /* ValorantAPI.swift */,
+				507F9D6D2E782CFE00BCE059 /* Package.swift */,
 			);
 			sourceTree = "<group>";
 		};
@@ -158,9 +151,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				507F9D6A2E78295A00BCE059 /* SporTotoSDK.swift in Sources */,
-				507F9D6C2E78295F00BCE059 /* ValorantAPI.swift in Sources */,
-				507F9D682E78294E00BCE059 /* Agent.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
